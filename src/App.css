@@ -1,0 +1,66 @@
+.textAreaStyle{
+  width: 500px;
+  border-radius: 12px;
+  height: 163px;
+  border-width: 10px;
+  border-color: orange;
+  margin-top: 25px;
+  margin-bottom: 49px;
+
+}
+
+.buttonStyle{
+  padding: 10px;
+  border-radius: 11px;
+  font-weight: bold;
+  border-width: 4px;
+  margin-left: -334px;
+
+}
+.name{
+  position: relative;
+  background-color: #D3C5E5;
+  border-color: red;
+  border-width: 500px;
+  width: 200%;
+  max-width: 570px;
+  border-radius: 10px;
+  /* box-sizing: border-box; */
+  margin-top: 200px;
+  margin-left: 450px;
+  /* margin: 100px auto 0; */
+}
+
+.textAreaStyle{
+  position: center;
+  margin-left: 20px;
+  margin-right: 40px;
+
+}
+
+body{
+  background: linear-gradient(45deg, #2C5F2D,#97BC62,#7A2048,#E7E8D1);
+  background-size: 500% 500%;
+  animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+  0%{
+      background-position: 0 50%;
+
+  }
+  50%{
+      background-position: 100% 50%;
+      
+  }
+  100%{
+      background-position: 0 50%;
+      
+  }
+}
+
+.h1name{
+  margin-left: 4%;
+  color: rgb(26, 25, 27);
+  font-style: italic;
+  margin-top: 1%;
+}
